@@ -338,15 +338,55 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     line-height: 1.3;
 }
 
-.tagline-inner p {
-    font-size: 1.1rem;
-    color: #666;
-    line-height: 1.6;
+.content-hub {
+    margin-top: 3rem;
+}
+
+.content-hub h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
     margin-bottom: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: white;
+    transform: scale(1.1);
+}
+
+.instagram-icon:hover {
+    background-color: #E4405F;
+    border-color: #E4405F;
+}
+
+.youtube-icon:hover {
+    background-color: #FF0000;
+    border-color: #FF0000;
 }
 
 /* Services Section */
@@ -664,6 +704,20 @@ body {
         font-size: 2rem;
     }
     
+    .content-hub h3 {
+        font-size: 1.5rem;
+    }
+    
+    .social-icons {
+        gap: 1.5rem;
+    }
+    
+    .social-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+    
     .newsletter-form .form-group {
         flex-direction: column;
         border-radius: 12px;
@@ -696,5 +750,19 @@ body {
     .gallery-link {
         font-size: 1.5rem;
         padding: 8px;
+    }
+    
+    .content-hub h3 {
+        font-size: 1.3rem;
+    }
+    
+    .social-icons {
+        gap: 1rem;
+    }
+    
+    .social-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 1rem;
     }
 }
