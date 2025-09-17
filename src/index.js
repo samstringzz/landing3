@@ -23,7 +23,7 @@ import BlogDetails from './components/blog-details';
 class Root extends Component {
     render() {
         return(
-                <HashRouter basename="/">
+                <Router>
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
@@ -42,7 +42,7 @@ class Root extends Component {
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                </Switch>
 	                </div>
-                </HashRouter>
+                </Router>
         )
     }
 }
