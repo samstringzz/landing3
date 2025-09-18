@@ -52,13 +52,12 @@ class ContactForm extends Component {
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-group">
-                                                <select className="form-control" required>
-                                                    <option value="">Select Service</option>
-                                                    <option value="photography">Photography</option>
-                                                    <option value="consulting">Business Consulting</option>
-                                                    <option value="events">Event Planning</option>
-                                                    <option value="other">Other</option>
-                                                </select>
+                                                <input 
+                                                    type="text" 
+                                                    className="form-control" 
+                                                    placeholder="Subject" 
+                                                    required
+                                                />
                                             </div>
                                         </div>
                                     </div>
