@@ -22,33 +22,7 @@ class Footer_v1 extends Component {
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-lg-6 col-md-8">
-							<div className="footer-widget widget widget_contact text-center">
-								<h4 className="widget-title">Contact Us</h4>
-								<div className="media">
-									<div className="thumb">
-										<img src={publicUrl + "assets/img/footer/1.png"} alt="img" />
-									</div>
-									<div className="media-body">
-										<p>2200 Pooz Street</p>
-										<p>Henderson, TN 38340</p>
-									</div>
-								</div>
-								<div className="media">
-									<div className="thumb mt-0">
-										<img src={publicUrl + "assets/img/footer/2.png"} alt="img" />
-									</div>
-									<div className="media-body">
-										<p className="m-0">example@mail.com</p>
-									</div>
-								</div>
-								<div className="media">
-									<div className="thumb mt-0">
-										<img src={publicUrl + "assets/img/footer/3.png"} alt="img" />
-									</div>
-									<div className="media-body">
-										<p className="m-0">517-383-6673</p>
-									</div>
-								</div>
+							<div className="footer-widget text-center">
 								<ul className="social-area">
 									<li><a href="https://www.facebook.com/solverwp/"><i className="fab fa-facebook-f" /></a></li>
 									<li><a href="https://www.twitter.com/solverwp/"><i className="fab fa-twitter" /></a></li>
